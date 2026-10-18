@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+/* Custom Filter Button Styles */
+.filter-btn {
+    background-color: rgba(30, 41, 59, 0.8);
+    border-color: rgba(51, 65, 85, 0.8);
+    color: #cbd5e1;
+}
+
+.filter-btn:hover {
+    border-color: #f59e0b;
+    color: #fbbf24;
+}
+
+.filter-btn.active-btn {
+    background-color: #f59e0b;
+    border-color: #f59e0b;
+    color: #0f172a;
+    font-weight: 700;
+}
+
+/* Modal Smooth Scrollbar */
+#detailModal ::-webkit-scrollbar {
+    width: 6px;
+}
+#detailModal ::-webkit-scrollbar-thumb {
+    background-color: #475569;
+    border-radius: 9999px;
+}
